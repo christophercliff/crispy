@@ -1,0 +1,22 @@
+{
+  "name": "crispy",
+  "version": "0.0.0",
+  "description": "“The best way to write JavaScript.” — Chris",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christophercliff/crispy.git"
+  },
+  "author": "Christopher Cliff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophercliff/crispy/issues"
+  },
+  "homepage": "https://github.com/christophercliff/crispy",
+  "bin": {
+    "crispy": "./bin/crispy"
+  },
+  "dependencies": {
+    "jscs": "^1.8.0",
+    "jshint": "^2.5.10"
+  }
+}
