@@ -16,7 +16,7 @@
     "crispy": "./bin/crispy"
   },
   "dependencies": {
-    "jscs": "^1.8.0",
-    "jshint": "^2.5.10"
+    "jscs": "^1.9.0",
+    "jshint": "^2.5.11"
   }
 }
