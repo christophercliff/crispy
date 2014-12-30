@@ -53,6 +53,9 @@
     "beforeOpeningCurlyBrace": true
   },
   "requireSpacesInsideObjectBrackets": "all",
+  "requireTrailingComma": {
+    "ignoreSingleLine": true
+  },
   "validateIndentation": 4,
   "validateParameterSeparator": ", "
 }
