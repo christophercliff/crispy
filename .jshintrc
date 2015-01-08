@@ -11,6 +11,10 @@
   "newcap": true,
   "node": true,
   "predef": [
+    "after",
+    "afterEach",
+    "before",
+    "beforeEach",
     "describe",
     "it"
   ],
