@@ -1,7 +1,7 @@
 {
   "name": "crispy",
   "version": "3.1.1",
-  "description": "The best way to write JavaScript",
+  "description": "A JavaScript style guide packaged with syntax and style checkers.",
   "repository": {
     "type": "git",
     "url": "https://github.com/christophercliff/crispy.git"
