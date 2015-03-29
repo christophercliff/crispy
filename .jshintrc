@@ -1,6 +1,7 @@
 {
   "asi": true,
   "boss": true,
+  "browser": true,
   "eqeqeq": true,
   "expr": true,
   "immed": true,
