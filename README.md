@@ -2,8 +2,6 @@
 
 This is a guide for writing consistent and aesthetically pleasing JavaScript. It is inspired by what is popular within the community, and flavored with some personal opinions.
 
-It includes configuration for [JSHint](https://github.com/jshint/jshint/) and [JSCS](https://github.com/jscs-dev/node-jscs).
-
 ## Installation
 
 ```
@@ -13,16 +11,7 @@ $ npm install crispy
 ## Usage
 
 ```
-$ ./node_modules/.bin/crispy ./lib/ ./test/
-```
-
-Better yet, include in your test runner so violations break the build:
-
-```json
-"scripts": {
-  "style": "./node_modules/.bin/crispy ./lib/ ./test/",
-  "test": "npm run style && ./node_modules/.bin/mocha"
-}
+$ ./node_modules/crispy/node_modules/.bin/eslint -c ./node_modules/crispy/.eslintrc ./lib/ ./test/
 ```
 
 ## The Rules

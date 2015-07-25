@@ -12,11 +12,11 @@
     "url": "https://github.com/christophercliff/crispy/issues"
   },
   "homepage": "https://github.com/christophercliff/crispy",
-  "bin": {
-    "crispy": "./bin/crispy"
+  "scripts": {
+    "test": "./node_modules/.bin/eslint -c ./.eslintrc ./test/"
   },
   "dependencies": {
-    "jscs": "^1.9.0",
-    "jshint": "^2.5.11"
+    "eslint": "^0.24.0",
+    "eslint-plugin-react": "^2.6.3"
   }
 }
