@@ -1,6 +1,6 @@
 {
   "name": "crispy",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "A JavaScript style guide packaged with syntax and style checkers.",
   "repository": {
     "type": "git",
