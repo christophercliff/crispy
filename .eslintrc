@@ -20,7 +20,8 @@
     "curly": [ 2, "multi-line" ],
     "func-style": [ 2, "declaration" ],
     "guard-for-in": 2,
-    "indent": [ 2, 4 ],
+    "indent": [ 2, 4, { "SwitchCase": 1 }],
+    "jsx-quotes": [ 2, "prefer-double" ],
     "linebreak-style": [ 2, "unix" ],
     "new-cap": 2,
     "no-alert": 2,
@@ -41,7 +42,6 @@
     "react/display-name": 2,
     "react/jsx-boolean-value": [ 2, "never" ],
     "react/jsx-no-undef": 2,
-    "react/jsx-quotes": [ 2, "double", "avoid-escape" ],
     "react/jsx-uses-react": 2,
     "react/no-did-mount-set-state": 2,
     "react/no-did-update-set-state": 2,
@@ -55,7 +55,7 @@
     "space-before-blocks": [ 2, "always" ],
     "space-before-function-paren": [ 2, { "anonymous": "always", "named": "never" } ],
     "space-in-parens": [ 2, "never" ],
-    "spaced-line-comment": [ 2, "always" ],
+    "spaced-comment": [ 2, "always" ],
     "strict": [ 2, "never" ]
   }
 }
